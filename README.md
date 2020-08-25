@@ -15,9 +15,11 @@ Visual Studio Community Edition 2019
 
 ## Installation
 
-To install this project create a new folder in the top level directory.
+To install this project create a new folder named "build" in the top level directory.
 
-Example: %USERPROFILE%\DesignPatternsProject\\[new_folder_name]
+Example: %USERPROFILE%\DesignPatternsProject\\build
+
+(note: you can use another name for this directory, but .gitignore file should be modified accordingly)
 
 Then open the Command Promt from within the newly created folder and run the following command:
 
