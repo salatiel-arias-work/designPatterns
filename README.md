@@ -1,8 +1,9 @@
 # Design Patterns Project
 
-This project is intended to be used as a reference for design patterns implementation in C++.
-One of the main goals of this project is to offer examples, of oversimplified implementations 
+This project is intended to be used as a reference for design pattern implementations in C++.
+One of the main goals of this project is to offer examples, of simple implementations 
 of some of the 21 design patterns introduced by the GoF (Gang of Four).
+Other C++ programming concepts are offered as well, as a complementary part of the project.
 
 ## Requirements
 
@@ -31,9 +32,9 @@ cmake ..
 
 Once CMake is done creating the build system, a Visual Studio solution can be found at:
  
-%USERPROFILE%\DesignPatternsProject\\[new_folder_name]\\DesignPatternsProject.sln 
+%USERPROFILE%\DesignPatternsProject\\build\\DesignPatternsProject.sln 
 
-There is a Visual Studio Project for each Design Pattern
+There is a Visual Studio Project for each Design Pattern and C++ concept
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
