@@ -12,10 +12,6 @@ Farm::Farm(const Farm& other) : m_farmSize{other.m_farmSize}
 
 }
 
-//Farm& Farm::operator=(const Farm& other) 
-//{
-//	return *this;
-//}
 
 Farm::~Farm()
 {
