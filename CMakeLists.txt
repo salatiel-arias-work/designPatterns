@@ -14,3 +14,5 @@ add_subdirectory(singleton)
 add_subdirectory(proxy)
 
 add_subdirectory(copyConstructor)
+
+add_subdirectory(pimpl)
