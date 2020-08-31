@@ -1,0 +1,3 @@
+# Pointer To Implementation (PIMPL)
+
+PIMPL is a concept that allows separating the implementation from the interface...

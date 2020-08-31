@@ -18,6 +18,7 @@ int main()
 	//end of scope
 	{
 		Farm myFarmCopy(myFarm);
+		
 		std::cout << "List of cows from copied farm: \n";
 		myFarmCopy.printCowsList();
 	}
@@ -27,7 +28,6 @@ int main()
 	//in myFarm.m_cowsList are pointing to... Creating memory corruption
 	std::cout << "List of cows from original farm: \n";
 	myFarm.printCowsList();
-
 
 
 	return 0;
