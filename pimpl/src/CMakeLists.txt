@@ -1,4 +1,4 @@
-target_sources(pimplLib PUBLIC pimpl.cpp)
+target_sources(pimplLib PUBLIC car.cpp carProxy_Pimpl.cpp)
 
 add_executable(pimplMain main.cpp)
 
