@@ -11,7 +11,7 @@ Minimum requirements to install this project are:
 
 CMake 3.18.0
 
-Visual Studio Community Edition 2019
+Visual Studio Community (see CMake generators list for minimum required version)
 
 
 ## Installation
