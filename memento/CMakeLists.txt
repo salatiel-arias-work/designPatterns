@@ -1,9 +1,15 @@
-#adds library target named "memento Lib" the source files that compose this 
-#library are given in "src"
-add_library(mementoLib)
+#adds library target named "memento Lib"
+add_library(mementoLib STATIC	src/car.cpp
+				src/memento.cpp
+				src/careTaker.cpp)
 
-#relates the mementoLib library to the directory where header files are located
-target_include_directories(mementoLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc)
+#adds path to header files
+target_include_directories(mementoLib PUBLIC inc)
 
-add_subdirectory(src)
+#creates an executable target called "mementoMain"
+add_executable(mementoMain src/main.cpp)
+
+#links mementoMain executable against mementoLib library
+target_link_libraries(mementoMain mementoLib)
+
 
